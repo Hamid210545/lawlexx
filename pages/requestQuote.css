@@ -1,0 +1,68 @@
+.quote {
+    background: #142947;
+}
+
+.quote p {
+    margin-bottom: 30px;
+    color: #EAEBEB;
+}
+
+.quote-content {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    column-gap: 30px;
+}
+
+.quote-content h6 {
+    color: #EAEBEB;
+    margin-bottom: 20px;
+}
+
+.personal {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 30px;
+}
+
+.quote-content h5 {
+    color: #EAEBEB;
+    margin-bottom: 30px;
+}
+
+.quote-content ol li {
+    margin-bottom: 20px;
+}
+
+.quote-content ol li a {
+    color: #9ba5d4;
+}
+
+.quote-content ol li a:hover {
+    color: #EAEBEB;
+}
+
+.quote .content hr {
+    margin: 30px 0;
+}
+
+@media( max-width:910px) {
+    section {
+        padding: 50px;
+    }
+}
+
+@media( max-width:800px) {
+    .quote-content {
+        grid-template-columns: 1fr;
+        row-gap: 30px;
+    }
+}
+
+@media( max-width:500px) {
+    .personal {
+        grid-template-columns: 1fr;
+    }
+    section {
+        padding: 50px 30px;
+    }
+}
